@@ -5,6 +5,7 @@ Objective: Predict car prices based on various features, helping a Chinese autom
 Business Goal: Develop a model to explain the pricing dynamics, aiding in car design and business strategy decisions for the US market.
 
 
+
 *. Dataset Preparation
 Data Loading: Import the CarPrice dataset containing car specifications and prices.
 Data Exploration: Perform an initial exploration to understand the structure of the data, identify any anomalies, and get a sense of potential relationships.
@@ -25,11 +26,16 @@ Residual Plot: For the best-performing model, plot residuals to analyze predicti
 
 *. Model Implementation
 Implement various regression models:
-Linear Regression: Start with a simple linear model to understand the basic relationship between features and car prices.
-Decision Tree Regressor: Implement a decision tree to capture non-linear relationships.
-Random Forest Regressor: Use an ensemble of decision trees to improve accuracy and reduce overfitting.
-Gradient Boosting Regressor: Apply sequential ensemble learning to correct errors and refine predictions.
-Support Vector Regressor (SVR): Implement SVR to fit data within a specified margin, optimizing the boundary for better predictions.
+* Linear Regression:
+Start with a simple linear model to understand the basic relationship between features and car prices.
+* Decision Tree Regressor:
+   Implement a decision tree to capture non-linear relationships.
+*Random Forest Regressor:
+ Use an ensemble of decision trees to improve accuracy and reduce overfitting.
+* Gradient Boosting Regressor:
+   Apply sequential ensemble learning to correct errors and refine predictions.
+*Support Vector Regressor (SVR):
+Implement SVR to fit data within a specified margin, optimizing the boundary for better predictions.
 
 *. Model Evaluation
 Performance Metrics: Evaluate each model using:
@@ -64,4 +70,3 @@ This project successfully modeled car prices based on various independent variab
 
 
 
-ChatGPT can 
